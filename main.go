@@ -5,6 +5,7 @@ import (
 
 	"github.com/mukezhz/recursion/array"
 	"github.com/mukezhz/recursion/sort"
+	str "github.com/mukezhz/recursion/string"
 	"github.com/mukezhz/recursion/toh"
 )
 
@@ -23,4 +24,5 @@ func main() {
 	fmt.Println(sortedArr)
 	fmt.Println(array.CheckSorted(randomArr))
 	fmt.Println(array.CheckSortedBetter(randomArr, 0))
+	fmt.Println(str.ReplaceString("xpixpiyush"))
 }
