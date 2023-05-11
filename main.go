@@ -25,4 +25,5 @@ func main() {
 	fmt.Println(array.CheckSorted(randomArr))
 	fmt.Println(array.CheckSortedBetter(randomArr, 0))
 	fmt.Println(str.ReplaceString("xpixpiyush"))
+	fmt.Println(str.Replace("xpixpiyush", 'p', ':'))
 }
